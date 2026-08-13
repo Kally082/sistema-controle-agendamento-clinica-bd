@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<ProcessModel class="oracle.dbtools.crest.model.design.process.ProcessModel" name="Process Model" id="F29AA957-8FA3-1B47-22E9-1E049D296BDE">
+<createdBy>Kally</createdBy>
+<createdTime>2026-08-13 13:05:08 UTC</createdTime>
+<ownerDesignName>exe_depart_func</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</ProcessModel>

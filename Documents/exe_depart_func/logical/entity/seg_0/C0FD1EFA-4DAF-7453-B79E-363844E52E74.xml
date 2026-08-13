@@ -1,0 +1,111 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="C0FD1EFA-4DAF-7453-B79E-363844E52E74" name="FUNCIONARIOS">
+<createdBy>Kally</createdBy>
+<createdTime>2026-08-13 13:14:13 UTC</createdTime>
+<ownerDesignName>exe_depart_func</ownerDesignName>
+<engineerTo>
+<item key="3052C495-E111-0A66-41C0-0259B37B04FF" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cod_funcionario" id="6A25D2E9-50AA-3C7A-BB29-188516986D47">
+<createdBy>Kally</createdBy>
+<createdTime>2026-08-13 13:14:55 UTC</createdTime>
+<ownerDesignName>exe_depart_func</ownerDesignName>
+<engineerTo>
+<item key="3052C495-E111-0A66-41C0-0259B37B04FF" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nome" id="4E16C40A-5A2A-B57B-1861-797EE0FA44D0">
+<createdBy>Kally</createdBy>
+<createdTime>2026-08-13 13:15:32 UTC</createdTime>
+<ownerDesignName>exe_depart_func</ownerDesignName>
+<engineerTo>
+<item key="3052C495-E111-0A66-41C0-0259B37B04FF" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="sobrenome" id="FC08AA38-127C-FB95-7661-4171A2705CD3">
+<createdBy>Kally</createdBy>
+<createdTime>2026-08-13 13:15:56 UTC</createdTime>
+<ownerDesignName>exe_depart_func</ownerDesignName>
+<engineerTo>
+<item key="3052C495-E111-0A66-41C0-0259B37B04FF" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="telefone" id="CA54B26A-C786-F957-CC91-94CE8F3C57D6">
+<createdBy>Kally</createdBy>
+<createdTime>2026-08-13 13:16:14 UTC</createdTime>
+<ownerDesignName>exe_depart_func</ownerDesignName>
+<engineerTo>
+<item key="3052C495-E111-0A66-41C0-0259B37B04FF" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="data_nascimento" id="F418D333-89FC-23AF-CF41-1EBDB07ECD17">
+<createdBy>Kally</createdBy>
+<createdTime>2026-08-13 13:16:40 UTC</createdTime>
+<ownerDesignName>exe_depart_func</ownerDesignName>
+<engineerTo>
+<item key="3052C495-E111-0A66-41C0-0259B37B04FF" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cod_departamento" id="893E05CA-2EED-DFB9-1B0F-2E47E4CEFE78">
+<createdBy>Kally</createdBy>
+<createdTime>2026-08-13 13:22:14 UTC</createdTime>
+<generatorID>4E187B9B-2559-1654-0490-4C655C3D118C</generatorID>
+<ownerDesignName>exe_depart_func</ownerDesignName>
+<engineerTo>
+<item key="3052C495-E111-0A66-41C0-0259B37B04FF" value="true"/>
+</engineerTo>
+<referedAttribute>E3848BF0-22BF-9A3A-5C9E-502A091A119C</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="35B09ABF-1AE4-BFED-7EE6-019DA5B8C926" name="FUNCIONARIOS PK">
+<createdBy>Kally</createdBy>
+<createdTime>2026-08-13 13:15:27 UTC</createdTime>
+<ownerDesignName>exe_depart_func</ownerDesignName>
+<engineerTo>
+<item key="3052C495-E111-0A66-41C0-0259B37B04FF" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>6A25D2E9-50AA-3C7A-BB29-188516986D47</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
