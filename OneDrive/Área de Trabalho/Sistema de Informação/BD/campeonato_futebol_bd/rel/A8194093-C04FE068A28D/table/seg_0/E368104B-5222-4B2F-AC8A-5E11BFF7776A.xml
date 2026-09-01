@@ -1,0 +1,82 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E368104B-5222-4B2F-AC8A-5E11BFF7776A" name="JGD_BRASILEIRO">
+<createdBy>Kally</createdBy>
+<createdTime>2026-09-01 18:19:12 UTC</createdTime>
+<ownerDesignName>campeonato_futebol_bd</ownerDesignName>
+<ordsAlias>table_4</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CPF" id="A8E9FA2A-27CA-51AD-44E7-13A3F2DD9113">
+<createdBy>Kally</createdBy>
+<createdTime>2026-09-01 18:19:36 UTC</createdTime>
+<ownerDesignName>campeonato_futebol_bd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ESTADO" id="8DC5D9C8-750B-357D-E9AA-E6C8140653B2">
+<createdBy>Kally</createdBy>
+<createdTime>2026-09-01 18:19:57 UTC</createdTime>
+<ownerDesignName>campeonato_futebol_bd</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>80</dataTypeSize>
+<ownDataTypeParameters>80,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CIDADE" id="06EF7F2B-AD41-BFDF-9EB0-497DDF7F7EAE">
+<createdBy>Kally</createdBy>
+<createdTime>2026-09-01 18:20:12 UTC</createdTime>
+<ownerDesignName>campeonato_futebol_bd</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>80</dataTypeSize>
+<ownDataTypeParameters>80,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="COD_JOGADOR_FK" id="AEDFD9D3-2EEE-8EA7-16F9-BDF9C61A831B">
+<createdBy>Kally</createdBy>
+<createdTime>2026-09-01 18:23:33 UTC</createdTime>
+<ownerDesignName>campeonato_futebol_bd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4C0B6413-C928-863E-9E7D-596F34DDE91C" referredColumn="0E844C83-BA51-EB96-F7EF-F0AA48D2AFC4"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="13209324-885E-F4D0-68CA-F95AA69E6FB5" name="CPF_JOGADOR__UN">
+<createdBy>Kally</createdBy>
+<createdTime>2026-09-01 18:21:12 UTC</createdTime>
+<ownerDesignName>campeonato_futebol_bd</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A8E9FA2A-27CA-51AD-44E7-13A3F2DD9113"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F9F203BA-E573-3BD4-01EB-E4D06D91681F" name="JGD_BRASILEIRO_JOGADORES_FK">
+<createdBy>Kally</createdBy>
+<createdTime>2026-09-01 18:23:33 UTC</createdTime>
+<ownerDesignName>campeonato_futebol_bd</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AEDFD9D3-2EEE-8EA7-16F9-BDF9C61A831B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

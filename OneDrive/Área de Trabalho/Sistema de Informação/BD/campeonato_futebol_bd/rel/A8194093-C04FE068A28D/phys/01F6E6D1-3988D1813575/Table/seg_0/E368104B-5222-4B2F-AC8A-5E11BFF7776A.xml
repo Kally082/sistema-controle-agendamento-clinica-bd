@@ -1,0 +1,48 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev20c class="oracle.dbtools.crest.model.design.storage.oracle.v20c.TableProxyOraclev20c" name="JGD_BRASILEIRO" directorySegmentName="seg_0" id="E368104B-5222-4B2F-AC8A-5E11BFF7776A">
+<createdBy>Kally</createdBy>
+<createdTime>2026-09-01 18:19:12 UTC</createdTime>
+<ownerDesignName>campeonato_futebol_bd</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="CIDADE" id="06EF7F2B-AD41-BFDF-9EB0-497DDF7F7EAE">
+<createdBy>Kally</createdBy>
+<createdTime>2026-09-01 18:20:12 UTC</createdTime>
+<ownerDesignName>campeonato_futebol_bd</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ESTADO" id="8DC5D9C8-750B-357D-E9AA-E6C8140653B2">
+<createdBy>Kally</createdBy>
+<createdTime>2026-09-01 18:19:57 UTC</createdTime>
+<ownerDesignName>campeonato_futebol_bd</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CPF" id="A8E9FA2A-27CA-51AD-44E7-13A3F2DD9113">
+<createdBy>Kally</createdBy>
+<createdTime>2026-09-01 18:19:36 UTC</createdTime>
+<ownerDesignName>campeonato_futebol_bd</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="COD_JOGADOR_FK" id="AEDFD9D3-2EEE-8EA7-16F9-BDF9C61A831B">
+<createdBy>Kally</createdBy>
+<createdTime>2026-09-01 18:23:33 UTC</createdTime>
+<ownerDesignName>campeonato_futebol_bd</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="JGD_BRASILEIRO_JOGADORES_FK" id="F9F203BA-E573-3BD4-01EB-E4D06D91681F">
+<createdBy>Kally</createdBy>
+<createdTime>2026-09-01 18:23:33 UTC</createdTime>
+<ownerDesignName>campeonato_futebol_bd</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<uniqueKeys>
+<UniqueKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.UniqueOraclev10g" name="CPF_JOGADOR__UN" id="13209324-885E-F4D0-68CA-F95AA69E6FB5">
+<createdBy>Kally</createdBy>
+<createdTime>2026-09-01 18:21:12 UTC</createdTime>
+<ownerDesignName>campeonato_futebol_bd</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</UniqueKey>
+</uniqueKeys>
+</TableProxyOraclev20c>

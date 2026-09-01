@@ -1,0 +1,51 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev20c class="oracle.dbtools.crest.model.design.storage.oracle.v20c.TableProxyOraclev20c" name="JOGADORES" directorySegmentName="seg_0" id="7B8E57A7-05C1-08D0-E3C5-37AEABE60C03">
+<createdBy>Kally</createdBy>
+<createdTime>2026-09-01 18:02:30 UTC</createdTime>
+<ownerDesignName>campeonato_futebol_bd</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="COD_JOGADOR" id="0E844C83-BA51-EB96-F7EF-F0AA48D2AFC4">
+<createdBy>Kally</createdBy>
+<createdTime>2026-09-01 18:03:29 UTC</createdTime>
+<ownerDesignName>campeonato_futebol_bd</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="NOM_JOGADOR" id="420C8D64-60AC-1D0F-011F-656A6CB2302D">
+<createdBy>Kally</createdBy>
+<createdTime>2026-09-01 18:05:01 UTC</createdTime>
+<ownerDesignName>campeonato_futebol_bd</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="POSICAO" id="536B74AB-2A44-6410-5F38-BF23D3275D72">
+<createdBy>Kally</createdBy>
+<createdTime>2026-09-01 18:06:24 UTC</createdTime>
+<ownerDesignName>campeonato_futebol_bd</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="NACIONALIDADE" id="CBF01917-825C-D2E0-B9FC-0073F713639E">
+<createdBy>Kally</createdBy>
+<createdTime>2026-09-01 18:14:10 UTC</createdTime>
+<ownerDesignName>campeonato_futebol_bd</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="DTA_NASCIMENTO" id="EA6F7A05-6AE1-A274-3053-BDB62BC35F69">
+<createdBy>Kally</createdBy>
+<createdTime>2026-09-01 18:05:39 UTC</createdTime>
+<ownerDesignName>campeonato_futebol_bd</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="APELIDO" id="F411B82D-3AE6-4DC3-CDC6-D6884D648E1C">
+<createdBy>Kally</createdBy>
+<createdTime>2026-09-01 18:04:19 UTC</createdTime>
+<ownerDesignName>campeonato_futebol_bd</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="JOGADORES_PK" id="982B1A96-D02D-1C10-F037-9D9C622A8B27">
+<createdBy>Kally</createdBy>
+<createdTime>2026-09-01 18:03:29 UTC</createdTime>
+<ownerDesignName>campeonato_futebol_bd</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev20c>

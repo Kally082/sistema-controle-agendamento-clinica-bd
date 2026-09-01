@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<UserOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.UserOraclev10g" name="KALLINE_IFAL" directorySegmentName="seg_0" id="6F30DDF1-2295-AEAC-2C5A-CDC15F83292F">
+<createdBy>Kally</createdBy>
+<createdTime>2026-09-01 17:32:28 UTC</createdTime>
+<ownerDesignName>campeonato_futebol_bd</ownerDesignName>
+<identifier>15FD78D8131B95E87A93C2C9A3161C3930F3EDBEE81B2650D7C2A677DCA7754A59</identifier>
+</UserOraclev10g>
