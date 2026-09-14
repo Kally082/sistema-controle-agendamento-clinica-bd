@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_3" directorySegmentName="seg_0" id="E7773AC8-6D38-1EB5-6491-67E4E69C0B60">
+<createdBy>Kally</createdBy>
+<createdTime>2026-09-04 13:11:19 UTC</createdTime>
+<ownerDesignName>campeonato_futebol_bd</ownerDesignName>
+<engineerTo>
+<item key="A8194093-0C5A-BB1D-B4EA-C04FE068A28D" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>42230A70-4977-E978-C380-B3A9BBE11543</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>777D719B-95F7-F199-0AEC-67C89394EB28</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

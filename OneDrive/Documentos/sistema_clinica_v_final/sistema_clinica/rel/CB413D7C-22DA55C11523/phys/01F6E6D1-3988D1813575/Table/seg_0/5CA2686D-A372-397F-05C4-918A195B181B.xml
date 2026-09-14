@@ -1,0 +1,83 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev20c class="oracle.dbtools.crest.model.design.storage.oracle.v20c.TableProxyOraclev20c" name="PACIENTE" directorySegmentName="seg_0" id="5CA2686D-A372-397F-05C4-918A195B181B">
+<createdBy>Kally</createdBy>
+<createdTime>2026-08-21 16:23:54 UTC</createdTime>
+<ownerDesignName>sistema_clinica</ownerDesignName>
+<schemaObject>6CE8EC0F-CDB2-B5A6-DCD7-DCAED3613E40</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="nome" id="1DA229C9-D7C8-EA1B-9F24-5C826E67FDEE">
+<createdBy>Kally</createdBy>
+<createdTime>2026-08-21 16:23:54 UTC</createdTime>
+<ownerDesignName>sistema_clinica</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="id_paciente" id="3159D326-8739-6D4D-6408-C88833B3F88E">
+<createdBy>Kally</createdBy>
+<createdTime>2026-08-21 16:23:54 UTC</createdTime>
+<ownerDesignName>sistema_clinica</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="id_convenio_fk" id="602F5A83-D81F-F1B5-023B-2F9D316C58D4">
+<createdBy>Kally</createdBy>
+<createdTime>2026-08-21 16:23:54 UTC</createdTime>
+<ownerDesignName>sistema_clinica</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="data_nasc" id="C8D439A3-BB7B-5C84-8D9E-16EA96B9C8C3">
+<createdBy>Kally</createdBy>
+<createdTime>2026-08-21 16:23:54 UTC</createdTime>
+<ownerDesignName>sistema_clinica</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="id_endereco_fk" id="CDD9DEAA-0DE5-E674-2686-44CB54124DA1">
+<createdBy>Kally</createdBy>
+<createdTime>2026-08-21 16:23:54 UTC</createdTime>
+<ownerDesignName>sistema_clinica</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="cpf" id="CF07F28C-18F3-001B-2973-9E99587D1CED">
+<createdBy>Kally</createdBy>
+<createdTime>2026-08-21 16:23:54 UTC</createdTime>
+<ownerDesignName>sistema_clinica</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="num_carteirinha" id="DD5F425C-ED4B-CE3F-439F-13EFB5845E8A">
+<createdBy>Kally</createdBy>
+<createdTime>2026-08-21 16:23:54 UTC</createdTime>
+<ownerDesignName>sistema_clinica</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="PACIENTE_ENDERECO_FK" id="10E80415-33D4-F29D-6C55-497443965E75">
+<createdBy>Kally</createdBy>
+<createdTime>2026-08-21 16:23:54 UTC</createdTime>
+<ownerDesignName>sistema_clinica</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="PACIENTE_CONVENIO_FK" id="1784F412-BFAC-33BB-66D8-2A436707CE08">
+<createdBy>Kally</createdBy>
+<createdTime>2026-08-21 16:23:54 UTC</createdTime>
+<ownerDesignName>sistema_clinica</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="PACIENTE_PK" id="F202AF4D-F4A2-BAEA-F177-4CB2CE6F6248">
+<createdBy>Kally</createdBy>
+<createdTime>2026-08-21 16:23:54 UTC</createdTime>
+<ownerDesignName>sistema_clinica</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+<uniqueKeys>
+<UniqueKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.UniqueOraclev10g" name="PACIENTE_num_carteirinha_UN" id="6BAF7B8D-C482-7E76-1DA4-EECF07B2EB07">
+<createdBy>Kally</createdBy>
+<createdTime>2026-08-21 16:23:54 UTC</createdTime>
+<ownerDesignName>sistema_clinica</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</UniqueKey>
+<UniqueKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.UniqueOraclev10g" name="PACIENTE_cpf_UN" id="B4340CEF-A070-CF16-2856-EF5F3B475D05">
+<createdBy>Kally</createdBy>
+<createdTime>2026-08-21 16:23:54 UTC</createdTime>
+<ownerDesignName>sistema_clinica</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</UniqueKey>
+</uniqueKeys>
+</TableProxyOraclev20c>

@@ -1,0 +1,32 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev20c class="oracle.dbtools.crest.model.design.storage.oracle.v20c.TableProxyOraclev20c" name="T_TIPO_ALUNO" directorySegmentName="seg_0" id="25DB81F8-7B95-E3B4-1597-492574D195F9">
+<createdBy>Kally</createdBy>
+<createdTime>2026-08-28 22:32:09 UTC</createdTime>
+<ownerDesignName>atividade_alunos_correcao_erros</ownerDesignName>
+<schemaObject>D9326B32-88B1-491E-4BB5-DAB1BBE7D595</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="COD_TIPO_ALUNO" id="D22E2B00-9BAD-A335-EE91-2B6A807521D0">
+<createdBy>Kally</createdBy>
+<createdTime>2026-08-28 22:32:09 UTC</createdTime>
+<ownerDesignName>atividade_alunos_correcao_erros</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="NOM_TIPO_ALUNO" id="D569B868-D1AF-CDED-05F4-695E2BDE2DFD">
+<createdBy>Kally</createdBy>
+<createdTime>2026-08-28 22:32:09 UTC</createdTime>
+<ownerDesignName>atividade_alunos_correcao_erros</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="T_TIPO_ALUNO_PK" id="18A66846-E198-20EF-9F45-912873B31A79">
+<createdBy>Kally</createdBy>
+<createdTime>2026-08-28 22:32:09 UTC</createdTime>
+<ownerDesignName>atividade_alunos_correcao_erros</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev20c>

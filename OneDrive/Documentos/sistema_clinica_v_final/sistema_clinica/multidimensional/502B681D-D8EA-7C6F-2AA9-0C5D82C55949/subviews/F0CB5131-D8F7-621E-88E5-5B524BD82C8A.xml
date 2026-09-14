@@ -1,0 +1,31 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Diagram class="oracle.dbtools.crest.swingui.multidimensional.DPVMultidimensional" name="MD_CLINICA" id="F0CB5131-D8F7-621E-88E5-5B524BD82C8A">
+<createdBy>barbaramillena</createdBy>
+<modifiedBy>barbaramillena</modifiedBy>
+<createdTime>2026-08-21 15:34:17 UTC</createdTime>
+<autoRoute>false</autoRoute>
+<boxInbox>true</boxInbox>
+<showLegend>false</showLegend>
+<showLabels>false</showLabels>
+<showRelAttributes>false</showRelAttributes>
+<gridEnabled>false</gridEnabled>
+<showGrid>false</showGrid>
+<diagramColor>-1</diagramColor>
+<display>false</display>
+<notation>1</notation>
+<compactDiagram class="oracle.dbtools.crest.swingui.multidimensional.DPVCompactMultidimentional" name="MD_CLINICA - Diagrama Compacto" id="A5E48EEF-F17D-9D59-636C-C1C16CD5CC3B">
+<createdBy>barbaramillena</createdBy>
+<modifiedBy>barbaramillena</modifiedBy>
+<createdTime>2026-08-21 15:32:56 UTC</createdTime>
+<autoRoute>false</autoRoute>
+<boxInbox>true</boxInbox>
+<showLegend>false</showLegend>
+<showLabels>false</showLabels>
+<showRelAttributes>false</showRelAttributes>
+<gridEnabled>false</gridEnabled>
+<showGrid>false</showGrid>
+<diagramColor>-1</diagramColor>
+<display>false</display>
+<notation>1</notation>
+</compactDiagram>
+</Diagram>

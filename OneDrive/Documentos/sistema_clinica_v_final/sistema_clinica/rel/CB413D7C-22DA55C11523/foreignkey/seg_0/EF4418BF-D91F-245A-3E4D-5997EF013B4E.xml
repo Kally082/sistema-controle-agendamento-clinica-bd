@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="EF4418BF-D91F-245A-3E4D-5997EF013B4E" containerWithKeyObject="88E5AB37-25EB-08FE-CEC2-FE6563275CA0" localFKIndex="31E7EB01-D32B-9564-BC04-DD6B1FF60C29" name="CONV_PROCEDIMENTO_FK">
+<createdBy>Vivian</createdBy>
+<createdTime>2026-08-20 22:25:59 UTC</createdTime>
+<ownerDesignName>sistema_clinica</ownerDesignName>
+<referredTableLongName>SCL_CLINICA.PROCEDIMENTO</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>74E9CC23-7299-51E0-5627-869B21B92CA2</referredTableID>
+<keyObject>561E2625-B9DA-2AB0-C4FB-518051A464D5</keyObject>
+<referredKeyID>561E2625-B9DA-2AB0-C4FB-518051A464D5</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_procedimento</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

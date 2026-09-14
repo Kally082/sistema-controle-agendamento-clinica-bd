@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<UserOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.UserOraclev10g" name="KALLINE_IFAL" directorySegmentName="seg_0" id="28439730-A982-7EB5-EB35-D9BD53D29F07">
+<createdBy>Kally</createdBy>
+<createdTime>2026-08-28 23:11:03 UTC</createdTime>
+<ownerDesignName>atividade_alunos_correcao_erros</ownerDesignName>
+<identifier>151EE0C0F47537394F178B5CB1498B2981C73C6965143A210F45039EC2FA90AB59</identifier>
+</UserOraclev10g>

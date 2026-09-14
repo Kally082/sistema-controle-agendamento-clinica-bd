@@ -1,0 +1,90 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="88E5AB37-25EB-08FE-CEC2-FE6563275CA0" schemaObject="6CE8EC0F-CDB2-B5A6-DCD7-DCAED3613E40" name="PROCEDIMENTO_CONVENIO">
+<createdBy>Vivian</createdBy>
+<createdTime>2026-08-20 22:25:32 UTC</createdTime>
+<ownerDesignName>sistema_clinica</ownerDesignName>
+<ordsEnable>true</ordsEnable>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_procedimento" id="143E74A3-F08F-A2D4-DD73-DAB020DC6F5C">
+<createdBy>Vivian</createdBy>
+<createdTime>2026-08-20 22:25:59 UTC</createdTime>
+<ownerDesignName>sistema_clinica</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementColumn>true</autoIncrementColumn>
+<autoIncrementStartWith>20</autoIncrementStartWith>
+<autoIncrementIncrementBy>5</autoIncrementIncrementBy>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="EF4418BF-D91F-245A-3E4D-5997EF013B4E" referredColumn="44BD6BF5-1E78-0438-B497-1F0AB5F3D25F"/>
+</associations>
+</Column>
+<Column name="id_convenio_fk" id="A712C43C-79EA-0D56-EB39-DF9CD8CA1038">
+<createdBy>Vivian</createdBy>
+<createdTime>2026-08-20 22:26:21 UTC</createdTime>
+<ownerDesignName>sistema_clinica</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="3A5B4467-FBC0-EE9E-5E35-2E8EE7D81005" referredColumn="4EF16716-5BDF-A666-711A-9B16961344B7"/>
+</associations>
+</Column>
+<Column name="valor_coberto" id="7CDC7EA7-A7BD-C80B-A4E5-E4DA287063DE">
+<createdBy>Vivian</createdBy>
+<createdTime>2026-08-21 00:43:01 UTC</createdTime>
+<ownerDesignName>sistema_clinica</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,10,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="39C617B3-E374-48F7-9469-8B2F48971349" name="PROCEDIMENTO_CONVENIO_PK">
+<createdBy>Vivian</createdBy>
+<createdTime>2026-08-20 22:27:16 UTC</createdTime>
+<ownerDesignName>sistema_clinica</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="143E74A3-F08F-A2D4-DD73-DAB020DC6F5C"/>
+<colUsage columnID="A712C43C-79EA-0D56-EB39-DF9CD8CA1038"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="31E7EB01-D32B-9564-BC04-DD6B1FF60C29" name="CONV_PROCEDIMENTO_FK">
+<createdBy>Vivian</createdBy>
+<createdTime>2026-08-20 22:25:59 UTC</createdTime>
+<ownerDesignName>sistema_clinica</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="143E74A3-F08F-A2D4-DD73-DAB020DC6F5C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="56F4B48F-CD9A-CE99-5521-6492A2FBE747" name="PROC_CONVENIO_FK">
+<createdBy>Vivian</createdBy>
+<createdTime>2026-08-20 22:26:21 UTC</createdTime>
+<ownerDesignName>sistema_clinica</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A712C43C-79EA-0D56-EB39-DF9CD8CA1038"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

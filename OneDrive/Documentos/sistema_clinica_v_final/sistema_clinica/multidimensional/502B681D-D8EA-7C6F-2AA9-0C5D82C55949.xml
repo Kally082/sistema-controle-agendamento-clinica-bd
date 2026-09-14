@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<MultidimensionalDesign class="oracle.dbtools.crest.model.design.multidimensional.MultidimensionalDesign" name="MD_CLINICA" id="502B681D-D8EA-7C6F-2AA9-0C5D82C55949" mainViewID="F0CB5131-D8F7-621E-88E5-5B524BD82C8A" boundModel="44611D4D-74BF-E682-7452-169ABD64DF50">
+<createdBy>barbaramillena</createdBy>
+<createdTime>2026-08-21 15:32:56 UTC</createdTime>
+<ownerDesignName>sistema_clinica</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</MultidimensionalDesign>

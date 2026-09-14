@@ -1,0 +1,105 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="75469A99-3633-4883-EB45-304E29107A45" schemaObject="6CE8EC0F-CDB2-B5A6-DCD7-DCAED3613E40" name="ENDERECO">
+<createdBy>Vivian</createdBy>
+<createdTime>2026-08-20 20:49:53 UTC</createdTime>
+<ownerDesignName>sistema_clinica</ownerDesignName>
+<ordsEnable>true</ordsEnable>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_endereco" id="94498E97-E464-556C-BA18-CFF5CAD00A0B">
+<createdBy>Vivian</createdBy>
+<createdTime>2026-08-20 20:53:04 UTC</createdTime>
+<ownerDesignName>sistema_clinica</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<autoIncrementStartWith>12</autoIncrementStartWith>
+<autoIncrementIncrementBy>5</autoIncrementIncrementBy>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="logradouro" id="089A2AA6-6FFA-10FD-BF4A-47B6E9857B65">
+<createdBy>Vivian</createdBy>
+<createdTime>2026-08-20 20:53:36 UTC</createdTime>
+<ownerDesignName>sistema_clinica</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="numero" id="BCD610E7-1F66-C7FF-A917-82E8B85D6BBF">
+<createdBy>Vivian</createdBy>
+<createdTime>2026-08-20 20:58:18 UTC</createdTime>
+<ownerDesignName>sistema_clinica</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>100</dataTypePrecision>
+<ownDataTypeParameters>,100,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="bairro" id="8D37E39B-622A-301E-EEEA-1E074F35D92C">
+<createdBy>Vivian</createdBy>
+<createdTime>2026-08-20 21:00:09 UTC</createdTime>
+<ownerDesignName>sistema_clinica</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cidade" id="47062DFF-770E-ED74-8E23-76706EEB6084">
+<createdBy>Vivian</createdBy>
+<createdTime>2026-08-20 21:00:28 UTC</createdTime>
+<ownerDesignName>sistema_clinica</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cep" id="C11A90CB-3C50-FDE7-FEA2-2CC7E93444A8">
+<createdBy>Vivian</createdBy>
+<createdTime>2026-08-20 21:04:11 UTC</createdTime>
+<ownerDesignName>sistema_clinica</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>9</dataTypeSize>
+<ownDataTypeParameters>9,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="complemento" id="4B95834F-CBF6-EC5C-1172-5FD9E9C0D67C">
+<createdBy>Kally</createdBy>
+<createdTime>2026-08-21 16:27:33 UTC</createdTime>
+<ownerDesignName>sistema_clinica</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="4DC27290-0F30-179E-339B-92CA7C55B55F" name="endereco_PK">
+<createdBy>Vivian</createdBy>
+<createdTime>2026-08-20 20:58:38 UTC</createdTime>
+<ownerDesignName>sistema_clinica</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="94498E97-E464-556C-BA18-CFF5CAD00A0B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

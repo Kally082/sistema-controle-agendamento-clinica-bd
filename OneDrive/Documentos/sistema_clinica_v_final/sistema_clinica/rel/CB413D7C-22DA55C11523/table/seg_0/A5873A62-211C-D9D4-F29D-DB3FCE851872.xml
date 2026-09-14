@@ -1,0 +1,98 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A5873A62-211C-D9D4-F29D-DB3FCE851872" schemaObject="6CE8EC0F-CDB2-B5A6-DCD7-DCAED3613E40" name="MEDICO">
+<createdBy>Vivian</createdBy>
+<createdTime>2026-08-20 20:51:33 UTC</createdTime>
+<ownerDesignName>sistema_clinica</ownerDesignName>
+<ordsEnable>true</ordsEnable>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_medico" id="FFD56D53-1225-C287-F2EE-A973D1E503DA">
+<createdBy>Vivian</createdBy>
+<createdTime>2026-08-20 22:08:48 UTC</createdTime>
+<ownerDesignName>sistema_clinica</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<autoIncrementStartWith>3</autoIncrementStartWith>
+<autoIncrementIncrementBy>3</autoIncrementIncrementBy>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nome" id="6E7EFD9B-8952-3F04-F111-190EFD188994">
+<createdBy>Vivian</createdBy>
+<createdTime>2026-08-20 22:09:35 UTC</createdTime>
+<ownerDesignName>sistema_clinica</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="crm" id="E5F83079-7BFA-C945-B03E-CF25020ED058">
+<createdBy>Vivian</createdBy>
+<createdTime>2026-08-20 22:10:09 UTC</createdTime>
+<ownerDesignName>sistema_clinica</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="telefone" id="B00C7D12-3A37-BDF0-A6FC-A12FD0D9E741">
+<createdBy>Vivian</createdBy>
+<createdTime>2026-08-20 22:11:37 UTC</createdTime>
+<ownerDesignName>sistema_clinica</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>11,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id_especialidade_fk" id="590114C9-5DEB-A063-4156-61D199C7C910">
+<createdBy>Vivian</createdBy>
+<createdTime>2026-08-20 22:12:27 UTC</createdTime>
+<ownerDesignName>sistema_clinica</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="15FA2375-A339-BD57-CA2C-02092A8EF557" referredColumn="A01FF802-3949-172E-59D9-1D51B2583180"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A9A536DC-6727-C7AD-4A4E-D46EE8116EB7" name="MEDICO_PK">
+<createdBy>Vivian</createdBy>
+<createdTime>2026-08-20 22:08:48 UTC</createdTime>
+<ownerDesignName>sistema_clinica</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FFD56D53-1225-C287-F2EE-A973D1E503DA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="FFCE311B-37F9-264D-A202-8E212A3C8AD6" name="MEDICO_ESPECIALIDADE_FK">
+<createdBy>Vivian</createdBy>
+<createdTime>2026-08-20 22:12:27 UTC</createdTime>
+<ownerDesignName>sistema_clinica</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="590114C9-5DEB-A063-4156-61D199C7C910"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

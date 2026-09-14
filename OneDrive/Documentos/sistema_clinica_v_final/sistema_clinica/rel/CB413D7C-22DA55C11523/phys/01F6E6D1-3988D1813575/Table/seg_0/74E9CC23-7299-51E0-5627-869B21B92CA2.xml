@@ -1,0 +1,37 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev20c class="oracle.dbtools.crest.model.design.storage.oracle.v20c.TableProxyOraclev20c" name="PROCEDIMENTO" directorySegmentName="seg_0" id="74E9CC23-7299-51E0-5627-869B21B92CA2">
+<createdBy>Kally</createdBy>
+<createdTime>2026-08-21 16:23:54 UTC</createdTime>
+<ownerDesignName>sistema_clinica</ownerDesignName>
+<schemaObject>6CE8EC0F-CDB2-B5A6-DCD7-DCAED3613E40</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="nome_procedimento" id="077B8ACA-E4DB-F08D-7F9B-8F16C360F6F0">
+<createdBy>Kally</createdBy>
+<createdTime>2026-08-21 16:23:54 UTC</createdTime>
+<ownerDesignName>sistema_clinica</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="id_procedimento" id="44BD6BF5-1E78-0438-B497-1F0AB5F3D25F">
+<createdBy>Kally</createdBy>
+<createdTime>2026-08-21 16:23:54 UTC</createdTime>
+<ownerDesignName>sistema_clinica</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="valor_base" id="B1357523-6A86-EF3E-E87E-53D2AA28461D">
+<createdBy>Kally</createdBy>
+<createdTime>2026-08-21 16:23:54 UTC</createdTime>
+<ownerDesignName>sistema_clinica</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="PROCEDIMENTO_PK" id="561E2625-B9DA-2AB0-C4FB-518051A464D5">
+<createdBy>Kally</createdBy>
+<createdTime>2026-08-21 16:23:54 UTC</createdTime>
+<ownerDesignName>sistema_clinica</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev20c>

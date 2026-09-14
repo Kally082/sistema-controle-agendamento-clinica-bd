@@ -1,0 +1,211 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="380AA83C-836C-A5F3-82B2-BA7A2EAA491C" schemaObject="6CE8EC0F-CDB2-B5A6-DCD7-DCAED3613E40" name="CONSULTA">
+<createdBy>Vivian</createdBy>
+<createdTime>2026-08-20 22:43:54 UTC</createdTime>
+<ownerDesignName>sistema_clinica</ownerDesignName>
+<ordsEnable>true</ordsEnable>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_consulta" id="74F9A555-3483-08C4-B2D0-6C91D9E029F0">
+<createdBy>Vivian</createdBy>
+<createdTime>2026-08-20 22:44:33 UTC</createdTime>
+<ownerDesignName>sistema_clinica</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="data_hora" id="F57E6482-B76B-D5CA-DE88-85284D1343F8">
+<createdBy>Vivian</createdBy>
+<createdTime>2026-08-20 22:45:03 UTC</createdTime>
+<ownerDesignName>sistema_clinica</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="status" id="E50AB1BD-45AB-F907-C13E-122F8A3249CB">
+<createdBy>Vivian</createdBy>
+<createdTime>2026-08-20 22:45:14 UTC</createdTime>
+<ownerDesignName>sistema_clinica</ownerDesignName>
+<constraintName>consulta_status_chk</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<listOfValues>
+<valueDef value="Agendada" description=""/>
+<valueDef value="Cancelada" description=""/>
+<valueDef value="Confirmada" description=""/>
+<valueDef value="Realizada" description=""/>
+</listOfValues>
+<defaultValue>Agendada</defaultValue>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="valor_final" id="F3F8C4CB-3C71-ACDA-8D9A-C696B7251B3B">
+<createdBy>Vivian</createdBy>
+<createdTime>2026-08-20 22:45:24 UTC</createdTime>
+<ownerDesignName>sistema_clinica</ownerDesignName>
+<constraintName>consulta_valor_final_chk</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<checkConstraint>
+<implementationDef dbType="Generic Constraint" definition="valor_final &gt;= 0"/>
+<implementationDef dbType="Oracle Database 21c" definition="valor_final &gt;= 0"/>
+</checkConstraint>
+<ownDataTypeParameters>,10,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="valor_base" id="9DC365B0-B556-C305-9902-0B9EEBE10B86">
+<createdBy>Vivian</createdBy>
+<createdTime>2026-08-20 23:15:24 UTC</createdTime>
+<ownerDesignName>sistema_clinica</ownerDesignName>
+<constraintName>consulta_valor_base_chk</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<checkConstraint>
+<implementationDef dbType="Generic Constraint" definition="valor_base &gt; 0"/>
+<implementationDef dbType="Oracle Database 21c" definition="valor_base &gt; 0"/>
+</checkConstraint>
+<ownDataTypeParameters>,10,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="valor_coberto" id="AB0176A2-85B9-F143-4709-0540C55DD437">
+<createdBy>Vivian</createdBy>
+<createdTime>2026-08-20 23:15:42 UTC</createdTime>
+<ownerDesignName>sistema_clinica</ownerDesignName>
+<constraintName>consulta_valor_coberto_chk</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<checkConstraint>
+<implementationDef dbType="Generic Constraint" definition="valor_coberto &gt;= 0"/>
+<implementationDef dbType="Oracle Database 21c" definition="valor_coberto &gt;= 0"/>
+</checkConstraint>
+<defaultValue>0</defaultValue>
+<ownDataTypeParameters>,10,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id_procedimento_fk" id="57540AFC-66CE-2216-406A-762907BD8995">
+<createdBy>Vivian</createdBy>
+<createdTime>2026-08-20 23:04:18 UTC</createdTime>
+<ownerDesignName>sistema_clinica</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F0FFC869-DBC2-F816-7926-617701890BC7" referredColumn="44BD6BF5-1E78-0438-B497-1F0AB5F3D25F"/>
+</associations>
+</Column>
+<Column name="id_medico_fk" id="2375A9D8-82CF-6266-5434-F00837EE5A3C">
+<createdBy>Vivian</createdBy>
+<createdTime>2026-08-20 23:28:05 UTC</createdTime>
+<ownerDesignName>sistema_clinica</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F397882B-B467-510F-06E2-7F1C0BA18E61" referredColumn="FFD56D53-1225-C287-F2EE-A973D1E503DA"/>
+</associations>
+</Column>
+<Column name="id_paciente_fk" id="307344C5-EEEF-4104-A788-901645AD21CC">
+<createdBy>Vivian</createdBy>
+<createdTime>2026-08-20 23:29:33 UTC</createdTime>
+<ownerDesignName>sistema_clinica</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="AB6556B7-A57E-3A55-A309-DE0ECEDEE863" referredColumn="3159D326-8739-6D4D-6408-C88833B3F88E"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="3D82447E-23B3-8379-54A9-E40585FC83F1" name="CONSULTA_PK">
+<createdBy>Vivian</createdBy>
+<createdTime>2026-08-20 22:53:09 UTC</createdTime>
+<ownerDesignName>sistema_clinica</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="74F9A555-3483-08C4-B2D0-6C91D9E029F0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F16B1587-5386-37FA-D2F2-32356ECA629B" name="CONSULTA_medico_hora_UN">
+<createdBy>Vivian</createdBy>
+<createdTime>2026-08-21 01:05:31 UTC</createdTime>
+<ownerDesignName>sistema_clinica</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2375A9D8-82CF-6266-5434-F00837EE5A3C"/>
+<colUsage columnID="F57E6482-B76B-D5CA-DE88-85284D1343F8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="FF4C2E73-9793-6454-78BC-92B5AE65A65F" schemaObject="6CE8EC0F-CDB2-B5A6-DCD7-DCAED3613E40" name="consulta_medico_horario_ukv1">
+<createdBy>Vivian</createdBy>
+<createdTime>2026-08-21 00:17:48 UTC</createdTime>
+<ownerDesignName>sistema_clinica</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F57E6482-B76B-D5CA-DE88-85284D1343F8"/>
+<colUsage columnID="2375A9D8-82CF-6266-5434-F00837EE5A3C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0E80F523-E18E-2A08-82A3-10C1BF2547D5" name="CONSULTA_PROCEDIMENTO_FK">
+<createdBy>Vivian</createdBy>
+<createdTime>2026-08-20 23:04:18 UTC</createdTime>
+<ownerDesignName>sistema_clinica</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="57540AFC-66CE-2216-406A-762907BD8995"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5F10F6CE-7A93-6A3E-C185-D5A7134E1450" name="CONSULTA_MEDICO_FK">
+<createdBy>Vivian</createdBy>
+<createdTime>2026-08-20 23:28:05 UTC</createdTime>
+<ownerDesignName>sistema_clinica</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2375A9D8-82CF-6266-5434-F00837EE5A3C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D7AE1F34-9F32-586C-81A2-6A72FE4B7A59" name="CONSULTA_PACIENTE_FK">
+<createdBy>Vivian</createdBy>
+<createdTime>2026-08-20 23:29:33 UTC</createdTime>
+<ownerDesignName>sistema_clinica</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="307344C5-EEEF-4104-A788-901645AD21CC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

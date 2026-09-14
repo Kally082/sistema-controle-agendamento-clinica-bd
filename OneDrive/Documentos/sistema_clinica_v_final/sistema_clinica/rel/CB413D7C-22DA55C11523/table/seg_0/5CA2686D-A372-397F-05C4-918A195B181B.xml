@@ -1,0 +1,149 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="5CA2686D-A372-397F-05C4-918A195B181B" schemaObject="6CE8EC0F-CDB2-B5A6-DCD7-DCAED3613E40" name="PACIENTE">
+<createdBy>Vivian</createdBy>
+<createdTime>2026-08-20 22:14:09 UTC</createdTime>
+<ownerDesignName>sistema_clinica</ownerDesignName>
+<ordsEnable>true</ordsEnable>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_paciente" id="3159D326-8739-6D4D-6408-C88833B3F88E">
+<createdBy>Vivian</createdBy>
+<createdTime>2026-08-20 22:15:21 UTC</createdTime>
+<ownerDesignName>sistema_clinica</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<autoIncrementStartWith>2</autoIncrementStartWith>
+<autoIncrementIncrementBy>4</autoIncrementIncrementBy>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nome" id="1DA229C9-D7C8-EA1B-9F24-5C826E67FDEE">
+<createdBy>Vivian</createdBy>
+<createdTime>2026-08-20 22:15:41 UTC</createdTime>
+<ownerDesignName>sistema_clinica</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cpf" id="CF07F28C-18F3-001B-2973-9E99587D1CED">
+<createdBy>Vivian</createdBy>
+<createdTime>2026-08-20 22:16:15 UTC</createdTime>
+<ownerDesignName>sistema_clinica</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>11</dataTypePrecision>
+<ownDataTypeParameters>,11,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="data_nasc" id="C8D439A3-BB7B-5C84-8D9E-16EA96B9C8C3">
+<createdBy>Vivian</createdBy>
+<createdTime>2026-08-20 22:17:45 UTC</createdTime>
+<ownerDesignName>sistema_clinica</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="num_carteirinha" id="DD5F425C-ED4B-CE3F-439F-13EFB5845E8A">
+<createdBy>Vivian</createdBy>
+<createdTime>2026-08-20 22:18:14 UTC</createdTime>
+<ownerDesignName>sistema_clinica</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id_endereco_fk" id="CDD9DEAA-0DE5-E674-2686-44CB54124DA1">
+<createdBy>Vivian</createdBy>
+<createdTime>2026-08-20 22:19:27 UTC</createdTime>
+<ownerDesignName>sistema_clinica</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2055A0BC-0F5C-A071-A85D-5E5D4581A79F" referredColumn="94498E97-E464-556C-BA18-CFF5CAD00A0B"/>
+</associations>
+</Column>
+<Column name="id_convenio_fk" id="602F5A83-D81F-F1B5-023B-2F9D316C58D4">
+<createdBy>Vivian</createdBy>
+<createdTime>2026-08-20 22:19:55 UTC</createdTime>
+<ownerDesignName>sistema_clinica</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="60D8300F-6112-34B8-16C8-47E56D0A509E" referredColumn="4EF16716-5BDF-A666-711A-9B16961344B7"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F202AF4D-F4A2-BAEA-F177-4CB2CE6F6248" name="PACIENTE_PK">
+<createdBy>Vivian</createdBy>
+<createdTime>2026-08-20 22:15:21 UTC</createdTime>
+<ownerDesignName>sistema_clinica</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3159D326-8739-6D4D-6408-C88833B3F88E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6BAF7B8D-C482-7E76-1DA4-EECF07B2EB07" name="PACIENTE_num_carteirinha_UN">
+<createdBy>Vivian</createdBy>
+<createdTime>2026-08-21 01:04:04 UTC</createdTime>
+<ownerDesignName>sistema_clinica</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DD5F425C-ED4B-CE3F-439F-13EFB5845E8A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B4340CEF-A070-CF16-2856-EF5F3B475D05" name="PACIENTE_cpf_UN">
+<createdBy>Vivian</createdBy>
+<createdTime>2026-08-21 01:06:19 UTC</createdTime>
+<ownerDesignName>sistema_clinica</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CF07F28C-18F3-001B-2973-9E99587D1CED"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="10E80415-33D4-F29D-6C55-497443965E75" name="PACIENTE_ENDERECO_FK">
+<createdBy>Vivian</createdBy>
+<createdTime>2026-08-20 22:19:27 UTC</createdTime>
+<ownerDesignName>sistema_clinica</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CDD9DEAA-0DE5-E674-2686-44CB54124DA1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1784F412-BFAC-33BB-66D8-2A436707CE08" name="PACIENTE_CONVENIO_FK">
+<createdBy>Vivian</createdBy>
+<createdTime>2026-08-20 22:19:55 UTC</createdTime>
+<ownerDesignName>sistema_clinica</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="602F5A83-D81F-F1B5-023B-2F9D316C58D4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

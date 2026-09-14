@@ -1,0 +1,78 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="28466229-4866-77D2-8A4B-EB4E34A13A80" schemaObject="6CE8EC0F-CDB2-B5A6-DCD7-DCAED3613E40" name="CONVENIO">
+<createdBy>Vivian</createdBy>
+<createdTime>2026-08-20 21:06:56 UTC</createdTime>
+<ownerDesignName>sistema_clinica</ownerDesignName>
+<ordsEnable>true</ordsEnable>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_convenio" id="4EF16716-5BDF-A666-711A-9B16961344B7">
+<createdBy>Vivian</createdBy>
+<createdTime>2026-08-20 21:07:35 UTC</createdTime>
+<ownerDesignName>sistema_clinica</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<autoIncrementStartWith>241</autoIncrementStartWith>
+<autoIncrementIncrementBy>35</autoIncrementIncrementBy>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nome_fantasia" id="0D1E2639-C2EB-AFB4-A294-5D222C470FB4">
+<createdBy>Vivian</createdBy>
+<createdTime>2026-08-20 21:08:25 UTC</createdTime>
+<ownerDesignName>sistema_clinica</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cnpj" id="1B05B2FB-DFC2-53CB-2D15-2EE7A6C4E84F">
+<createdBy>Vivian</createdBy>
+<createdTime>2026-08-20 21:10:57 UTC</createdTime>
+<ownerDesignName>sistema_clinica</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>14</dataTypeSize>
+<ownDataTypeParameters>14,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="desconto_padrao" id="69597D77-807A-2AB5-BBA7-85C072AF4EFC">
+<createdBy>Vivian</createdBy>
+<createdTime>2026-08-20 21:11:29 UTC</createdTime>
+<ownerDesignName>sistema_clinica</ownerDesignName>
+<constraintName>convenio_desconto_chk</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<checkConstraint>
+<implementationDef dbType="Generic Constraint" definition="desconto_padrao BETWEEN 0 AND 100"/>
+<implementationDef dbType="Oracle Database 21c" definition="desconto_padrao BETWEEN 0 AND 100"/>
+</checkConstraint>
+<defaultValue>30</defaultValue>
+<ownDataTypeParameters>,5,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="217F64DA-9806-076B-4A6D-5138EC401B3E" name="CONVENIO_PK">
+<createdBy>Vivian</createdBy>
+<createdTime>2026-08-20 21:07:35 UTC</createdTime>
+<ownerDesignName>sistema_clinica</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4EF16716-5BDF-A666-711A-9B16961344B7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

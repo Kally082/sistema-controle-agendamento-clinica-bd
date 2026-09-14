@@ -1,0 +1,63 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="74E9CC23-7299-51E0-5627-869B21B92CA2" schemaObject="6CE8EC0F-CDB2-B5A6-DCD7-DCAED3613E40" name="PROCEDIMENTO">
+<createdBy>Vivian</createdBy>
+<createdTime>2026-08-20 20:50:51 UTC</createdTime>
+<ownerDesignName>sistema_clinica</ownerDesignName>
+<ordsEnable>true</ordsEnable>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_procedimento" id="44BD6BF5-1E78-0438-B497-1F0AB5F3D25F">
+<createdBy>Vivian</createdBy>
+<createdTime>2026-08-20 21:44:39 UTC</createdTime>
+<ownerDesignName>sistema_clinica</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<autoIncrementStartWith>132</autoIncrementStartWith>
+<autoIncrementIncrementBy>2</autoIncrementIncrementBy>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nom_procedimento" id="077B8ACA-E4DB-F08D-7F9B-8F16C360F6F0">
+<createdBy>Vivian</createdBy>
+<createdTime>2026-08-20 21:45:01 UTC</createdTime>
+<ownerDesignName>sistema_clinica</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="valor_base" id="B1357523-6A86-EF3E-E87E-53D2AA28461D">
+<createdBy>Vivian</createdBy>
+<createdTime>2026-08-20 21:46:14 UTC</createdTime>
+<ownerDesignName>sistema_clinica</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,5,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="561E2625-B9DA-2AB0-C4FB-518051A464D5" name="PROCEDIMENTO_PK">
+<createdBy>Vivian</createdBy>
+<createdTime>2026-08-20 21:44:39 UTC</createdTime>
+<ownerDesignName>sistema_clinica</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="44BD6BF5-1E78-0438-B497-1F0AB5F3D25F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,6 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableViewProxyOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.TableViewProxyOraclev10g" name="VW_INFO_ALUNOS" directorySegmentName="seg_0" id="8F72CCE2-4D54-53AC-4748-6D2A2F722BE0">
+<createdBy>Kally</createdBy>
+<createdTime>2026-08-28 22:32:09 UTC</createdTime>
+<ownerDesignName>atividade_alunos_correcao_erros</ownerDesignName>
+</TableViewProxyOraclev10g>

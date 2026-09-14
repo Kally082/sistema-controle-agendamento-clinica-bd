@@ -1,0 +1,102 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev20c class="oracle.dbtools.crest.model.design.storage.oracle.v20c.TableProxyOraclev20c" name="CONSULTA" directorySegmentName="seg_0" id="380AA83C-836C-A5F3-82B2-BA7A2EAA491C">
+<createdBy>Kally</createdBy>
+<createdTime>2026-08-21 16:23:54 UTC</createdTime>
+<ownerDesignName>sistema_clinica</ownerDesignName>
+<schemaObject>6CE8EC0F-CDB2-B5A6-DCD7-DCAED3613E40</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="id_medico_fk" id="2375A9D8-82CF-6266-5434-F00837EE5A3C">
+<createdBy>Kally</createdBy>
+<createdTime>2026-08-21 16:23:54 UTC</createdTime>
+<ownerDesignName>sistema_clinica</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="id_paciente_fk" id="307344C5-EEEF-4104-A788-901645AD21CC">
+<createdBy>Kally</createdBy>
+<createdTime>2026-08-21 16:23:54 UTC</createdTime>
+<ownerDesignName>sistema_clinica</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="id_procedimento_fk" id="57540AFC-66CE-2216-406A-762907BD8995">
+<createdBy>Kally</createdBy>
+<createdTime>2026-08-21 16:23:54 UTC</createdTime>
+<ownerDesignName>sistema_clinica</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="id_consulta" id="74F9A555-3483-08C4-B2D0-6C91D9E029F0">
+<createdBy>Kally</createdBy>
+<createdTime>2026-08-21 16:23:54 UTC</createdTime>
+<ownerDesignName>sistema_clinica</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="valor_base" id="9DC365B0-B556-C305-9902-0B9EEBE10B86">
+<createdBy>Kally</createdBy>
+<createdTime>2026-08-21 16:23:54 UTC</createdTime>
+<ownerDesignName>sistema_clinica</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="valor_coberto" id="AB0176A2-85B9-F143-4709-0540C55DD437">
+<createdBy>Kally</createdBy>
+<createdTime>2026-08-21 16:23:54 UTC</createdTime>
+<ownerDesignName>sistema_clinica</ownerDesignName>
+<defaultValue>0</defaultValue>
+</ColumnProxy>
+<ColumnProxy name="status" id="E50AB1BD-45AB-F907-C13E-122F8A3249CB">
+<createdBy>Kally</createdBy>
+<createdTime>2026-08-21 16:23:54 UTC</createdTime>
+<ownerDesignName>sistema_clinica</ownerDesignName>
+<defaultValue>Agendada</defaultValue>
+</ColumnProxy>
+<ColumnProxy name="valor_final" id="F3F8C4CB-3C71-ACDA-8D9A-C696B7251B3B">
+<createdBy>Kally</createdBy>
+<createdTime>2026-08-21 16:23:54 UTC</createdTime>
+<ownerDesignName>sistema_clinica</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="data_hora" id="F57E6482-B76B-D5CA-DE88-85284D1343F8">
+<createdBy>Kally</createdBy>
+<createdTime>2026-08-21 16:23:54 UTC</createdTime>
+<ownerDesignName>sistema_clinica</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="consulta_medico_horario_ukv1" id="FF4C2E73-9793-6454-78BC-92B5AE65A65F">
+<createdBy>Kally</createdBy>
+<createdTime>2026-08-21 16:23:54 UTC</createdTime>
+<ownerDesignName>sistema_clinica</ownerDesignName>
+<schemaObject>6CE8EC0F-CDB2-B5A6-DCD7-DCAED3613E40</schemaObject>
+</IndexProxy>
+</indexProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="CONSULTA_PROCEDIMENTO_FK" id="0E80F523-E18E-2A08-82A3-10C1BF2547D5">
+<createdBy>Kally</createdBy>
+<createdTime>2026-08-21 16:23:54 UTC</createdTime>
+<ownerDesignName>sistema_clinica</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="CONSULTA_MEDICO_FK" id="5F10F6CE-7A93-6A3E-C185-D5A7134E1450">
+<createdBy>Kally</createdBy>
+<createdTime>2026-08-21 16:23:54 UTC</createdTime>
+<ownerDesignName>sistema_clinica</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="CONSULTA_PACIENTE_FK" id="D7AE1F34-9F32-586C-81A2-6A72FE4B7A59">
+<createdBy>Kally</createdBy>
+<createdTime>2026-08-21 16:23:54 UTC</createdTime>
+<ownerDesignName>sistema_clinica</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="CONSULTA_PK" id="3D82447E-23B3-8379-54A9-E40585FC83F1">
+<createdBy>Kally</createdBy>
+<createdTime>2026-08-21 16:23:54 UTC</createdTime>
+<ownerDesignName>sistema_clinica</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+<uniqueKeys>
+<UniqueKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.UniqueOraclev10g" name="CONSULTA_medico_hora_UN" id="F16B1587-5386-37FA-D2F2-32356ECA629B">
+<createdBy>Kally</createdBy>
+<createdTime>2026-08-21 16:23:54 UTC</createdTime>
+<ownerDesignName>sistema_clinica</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</UniqueKey>
+</uniqueKeys>
+</TableProxyOraclev20c>
