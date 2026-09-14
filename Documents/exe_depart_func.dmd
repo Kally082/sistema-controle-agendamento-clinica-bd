@@ -1,8 +1,0 @@
-<?xml version = '1.0' encoding = 'UTF-8'?>
-<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="exe_depart_func" id="B76B6A1D-7511-76DC-3ACF-677ABD0BB184" version="3.5">
-<createdBy>Kally</createdBy>
-<createdTime>2026-08-13 13:05:07 UTC</createdTime>
-<ownerDesignName>exe_depart_func</ownerDesignName>
-<capitalNames>false</capitalNames>
-<designId>B76B6A1D-7511-76DC-3ACF-677ABD0BB184</designId>
-</OSDM_Design>
