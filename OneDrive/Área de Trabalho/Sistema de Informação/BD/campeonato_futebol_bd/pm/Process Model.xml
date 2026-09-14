@@ -1,7 +1,0 @@
-<?xml version = '1.0' encoding = 'UTF-8'?>
-<ProcessModel class="oracle.dbtools.crest.model.design.process.ProcessModel" name="Process Model" id="26B93159-C9E1-F619-B7C4-CA0F07AC1C80">
-<createdBy>Kally</createdBy>
-<createdTime>2026-09-01 17:29:59 UTC</createdTime>
-<ownerDesignName>campeonato_futebol_bd</ownerDesignName>
-<shouldBeOpen>false</shouldBeOpen>
-</ProcessModel>

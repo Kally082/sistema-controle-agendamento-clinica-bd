@@ -1,6 +1,0 @@
-<?xml version = '1.0' encoding = 'UTF-8'?>
-<StorageDesignOraclev20c class="oracle.dbtools.crest.model.design.storage.oracle.v20c.StorageDesignOraclev20c" name="Oracle Database 21c" id="5F43864D-38AE-22C5-1333-B5AF533CAF3B" siteID="01F6E6D1-21D0-CFBD-ABDD-3988D1813575" siteName="Oracle Database 21c" siteType="17">
-<createdBy>Kally</createdBy>
-<createdTime>2026-09-01 17:32:22 UTC</createdTime>
-<ownerDesignName>campeonato_futebol_bd</ownerDesignName>
-</StorageDesignOraclev20c>
